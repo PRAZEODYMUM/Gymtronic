@@ -1,4 +1,3 @@
-from data import *
 import random
 def get_workout(exercices:dict,count):
     if len(exercices)<count:

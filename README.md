@@ -1,7 +1,7 @@
 # Gymtronic
 A python script that creates a certain workout plan based on user input
 - Add your custom exercises or exercise categories to data.json as "category":{"code":"exercise"}
-- Add your custom difficulties to data.json as "difficulties":{"difficulty":{"sets":[_,_],"reps":[_,_]}
+- Add your custom difficulties to data.json as "difficulties":{"difficulty":{"sets":[0,0],"reps":[0,0]}
 - The program will give you a list of random exericses based on:
   exercise type input,
   difficulty input,

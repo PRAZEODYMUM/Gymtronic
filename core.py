@@ -10,6 +10,5 @@ with open(data_path,'r',encoding='utf-8') as f:
 #-
 def get_workout(exercises:dict,count):
     if len(exercises)<count:
-        print(f'Недостаточно упражнений в конфиге, беру {len(exercises)}')
         return random.sample(list(exercises.values()),len(exercises))
     return random.sample(list(exercises.values()),count)

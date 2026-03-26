@@ -49,7 +49,16 @@
     },
 
     "core":{
-
+        "1":"Forearm plank",
+        "2":"Russian twist",
+        "3":"Butterfly sit-up",
+        "4":"Dead bug",
+        "5":"Jackknife",
+        "6":"Hollow body rock",
+        "7":"Wheelbarrow",
+        "8":"Rolling like a ball",
+        "9":"Leg Raise",
+        "10":"Plank shoulder tap"
     },
 
     "chest":{

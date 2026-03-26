@@ -1,4 +1,4 @@
-exercices_back={
+exercises_back={
 1:'подтягивания',
 2:'австралийские подтягиания',
 3:'гиперэкстензия на тренажёре',
@@ -16,7 +16,7 @@ exercices_back={
 15:'разведение рук в наклоне c эспандером'
 }
 
-exercices_shoulders={
+exercises_shoulders={
 1:'жим штанги стоя',
 2:'разведение гантелей в наклоне',
 3:'тяга штанги к подбородку широким хватом',
@@ -29,7 +29,7 @@ exercices_shoulders={
 10:'Подъем руки с фитнес-резинкой'
 }
 
-exercices_legs={
+exercises_legs={
 1:'',
 2:'',
 3:'',
@@ -42,18 +42,18 @@ exercices_legs={
 10:''
 }
 
-exercices_core={
+exercises_core={
 1:'',
 2:'',
 3:'',
 }
 
-exercices_chest={
+exercises_chest={
 1:'',
 2:''
 }
 
-exercices_cardio={
+exercises_cardio={
 1:'',
 2:''
 }

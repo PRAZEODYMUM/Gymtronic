@@ -4,12 +4,12 @@ from core import get_workout
 n=input('Чем сегодня займёмся? ')
 
 choice_dict={
-'back':exercices_back,
-'cardio':exercices_cardio,
-'chest':exercices_chest,
-'core':exercices_core,
-'legs':exercices_legs,
-'shoulders':exercices_shoulders
+'back':exercises_back,
+'cardio':exercises_cardio,
+'chest':exercises_chest,
+'core':exercises_core,
+'legs':exercises_legs,
+'shoulders':exercises_shoulders
 }
 
 if n.lower() not in choice_dict:

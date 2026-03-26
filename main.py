@@ -8,12 +8,12 @@ except ValueError:
     print(f'Неверный ввод количества')
     quit()
 choice_dict={
-'back':get_workout(exercices_back,int(choice)),
-'cardio':get_workout(exercices_cardio,int(choice)),
-'chest':get_workout(exercices_chest,int(choice)),
-'core':get_workout(exercices_core,int(choice)),
-'legs':get_workout(exercices_legs,int(choice)),
-'shoulders':get_workout(exercices_shoulders,int(choice))
+'back':get_workout(exercices_back,choice_int),
+'cardio':get_workout(exercices_cardio,choice_int),
+'chest':get_workout(exercices_chest,choice_int),
+'core':get_workout(exercices_core,choice_int),
+'legs':get_workout(exercices_legs,choice_int),
+'shoulders':get_workout(exercices_shoulders,choice_int)
 }
 if n.lower() in choice_dict:
     print(choice_dict[n.lower()])

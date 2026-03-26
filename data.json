@@ -1,4 +1,10 @@
 {
+    "difficulties":{
+        "easy":{"sets":[2,3],"reps":[6,8]},
+        "medium":{"sets":[3,4],"reps":[10,12]},
+        "hard":{"sets":[4,5],"reps":[15,20]}
+    },
+
     "back":{
         "1":"Pull-ups",
         "2":"Australian pull-ups",
@@ -44,4 +50,5 @@
     "cardio":{
         
     }
+
 }

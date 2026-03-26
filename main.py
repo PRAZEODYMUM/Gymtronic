@@ -2,7 +2,6 @@ from data import *
 from core import get_workout
 
 n=input('Чем сегодня займёмся? ')
-choice=(input('Сколько упражнений? '))
 
 choice_dict={
 'back':exercices_back,
@@ -18,6 +17,8 @@ if n.lower() not in choice_dict:
     for n in choice_dict.keys():
         print(n)
     quit()
+
+choice=(input('Сколько упражнений? '))
 
 try:
     choice_int=int(choice)

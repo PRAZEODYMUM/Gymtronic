@@ -36,7 +36,16 @@
     },
     
     "legs":{
-
+        "1":"Barbell front squat",
+        "2":"Kettlebell swing",
+        "3":"Barbell bulgarian split squat",
+        "4":"Standing dumbbell calf raise",
+        "5":"Romanian deadlift",
+        "6":"Reverse lunge",
+        "7":"Leg extension",
+        "8":"Sumo squat",
+        "9":"Thruster",
+        "10":"Barbell Front Squats"
     },
 
     "core":{

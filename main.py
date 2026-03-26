@@ -14,11 +14,12 @@ choice=(input('Сколько упражнений? '))
 try:
     choice_int=int(choice)
 except ValueError:
-    print(f'Неверный ввод количества')
-    quit()
+    raise Exception('Неверный ввод')
 #-
 if choice_int<=0:
-    print('Неверный ввод количества')
-    quit()    
+    raise Exception('Неверный ввод количества')
+#-
+if choise_int>len(all_exercises):
+    raise Exception('Недостаточно занятий в конфиге')
 #-
 print(get_workout(all_exercises[n.lower()],choice_int))

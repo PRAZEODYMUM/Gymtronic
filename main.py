@@ -5,8 +5,8 @@ n=input('Чем сегодня займёмся? ')
 #-
 if n.lower() not in all_exercises:
     print('Неверный ввод, правильные вводы:')
-    for n in all_exercises.keys():
-        print(n)
+    for key in all_exercises.keys():
+        print(key)
     quit()
 #-
 choice=(input('Сколько упражнений? '))    

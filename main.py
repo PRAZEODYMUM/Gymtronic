@@ -1,25 +1,24 @@
-import json
 from core import all_exercises,get_workout
 #-
-n=input('Чем сегодня займёмся? ')
+n=input('What\'s ond your mind today? ')
 #-
 if n.lower() not in all_exercises:
-    print('Неверный ввод, правильные вводы:')
+    print('Invalid input, valid inputs:')
     for key in all_exercises.keys():
         print(key)
     quit()
 #-
-choice=(input('Сколько упражнений? '))    
+choice=(input('How many exercises? '))    
 #-
 try:
     choice_int=int(choice)
 except ValueError:
-    raise Exception('Неверный ввод')
+    raise Exception('Invalid input')
 #-
 if choice_int<=0:
-    raise Exception('Неверный ввод количества')
+    raise Exception('Invalid input')
 #-
-if choise_int>len(all_exercises):
-    raise Exception('Недостаточно занятий в конфиге')
+if choice_int>len(all_exercises[n]):
+    raise Exception('Insuficient exercise ammount in config')      
 #-
 print(get_workout(all_exercises[n.lower()],choice_int))

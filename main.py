@@ -1,31 +1,42 @@
 from core import all_exercises,get_workout,difficulties
 import random
 #-
-n=input('What\'s on your mind today? ').lower()
+while True:
+    n=input('What\'s on your mind today? ').lower()
+    if n not in all_exercises:
+        print('Invalid input, valid inputs:')
+        for key in all_exercises.keys():
+            print(key)
+        continue
+    else:
+        break
 #-
-if n not in all_exercises:
-    print('Invalid input, valid inputs:')
-    for key in all_exercises.keys():
-        print(key)
-    quit()
+while True:
+    diff=input('Difficulty? ').lower()
+    if diff not in difficulties:
+        print('Invalid input, valid inputs: ')
+        for key in difficulties:
+            print(key)
+        continue
+    else:
+        break
 #-
-diff=input('Difficulty? ').lower()
-#-
-if diff not in difficulties:
-    raise Exception('Invalid input')
-#-
-choice=(input('How many exercises? '))    
-#-
-try:
-    choice_int=int(choice)
-except ValueError:
-    raise Exception('Invalid input')
-#-
-if choice_int<=0:
-    raise Exception('Invalid input')
-#-
-if choice_int>len(all_exercises[n]):
-    raise Exception('Insuficient exercise ammount in config')      
+while True:
+    choice=(input('How many exercises? '))
+    try:
+        choice_int=int(choice)
+    except ValueError:
+        print('Invalid input')
+        continue
+    else:
+        if choice_int<=0:
+            print('Invalid input')
+            continue
+        if choice_int>len(all_exercises[n]):
+            print('Insuficient exercise ammount in the config')
+            continue
+        else:
+            break      
 #-
 workout=get_workout(all_exercises[n],choice_int)
 print(f'\nYour {n} workout ({len(workout)} exercises):')

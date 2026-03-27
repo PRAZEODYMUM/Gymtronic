@@ -33,7 +33,8 @@ while True:
             print('Invalid input')
             continue
         if choice_int>len(all_exercises[n]):
-            print('Insuficient exercise ammount in the config')
+            print('Max exercise ammount in config: ')
+            print(len(all_exercises[n]))
             continue
         else:
             break      

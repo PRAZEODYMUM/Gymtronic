@@ -62,7 +62,16 @@
     },
 
     "chest":{
-
+        "1":"Incline dumbbell bench press",
+        "2":"Barbell bench press",
+        "3":"Standing cable fly",
+        "4":"Chest dip",
+        "5":"Push-ups",
+        "6":"Standing low to high cable fly",
+        "7":"Barbell pullover",
+        "8":"Incline push-ups",
+        "9":"Dumbbell twist press",
+        "10":"Wide grip incline bench press"
     },
 
     "cardio":{

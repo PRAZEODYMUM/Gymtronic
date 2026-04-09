@@ -8,8 +8,9 @@ A python script that creates a certain workout plan based on user input
   - exercise type,
   - difficulty,
   - exercise ammount
-- !Right now the only way to work with the program is to run main.py in your preferable compiler!
+- !Right now the only way to work with the program is to run main.py in your preferable interpretator!
 ---
 ## Todo
-- Desktop aplication implementation
-- UI/UX
+- [x]Rework core and main logic with classes
+- [ ]Desktop aplication implementation
+- [ ]UI/UX

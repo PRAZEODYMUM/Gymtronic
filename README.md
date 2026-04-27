@@ -14,4 +14,4 @@ A python script that creates a certain workout plan based on user input
 ## Todo
 - [x]Rework core and main logic with classes
 - [ ]Desktop aplication implementation
-- [ ]UI/UX
+- [x]UI/UX
